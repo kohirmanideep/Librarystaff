@@ -4,7 +4,6 @@ from database import SessionLocal,engine
 from sqlalchemy.orm import Session
 from database import engine
 from typing import List
-import requests
 from fastapi import status,HTTPException
 from hashing import Hash
 from fastapi.security import OAuth2PasswordRequestForm
